@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEF1AD997833DCD15571349 /* Pods_BladeCloudGame_BladeCloudGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */; };
+		66879D2AF654C2EAAE57EB3F /* Pods_BladeCloudGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */; };
+		FC936494268C0A5500CA154C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936493268C0A5500CA154C /* Tools.swift */; };
+		FC936496268C380100CA154C /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936495268C380100CA154C /* BannerCell.swift */; };
+		FC93649B268D93B000CA154C /* Pods_BladeCloudGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */; };
+		FC9364B32693F55000CA154C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364B22693F55000CA154C /* Device.swift */; };
+		FC9364BB2694340700CA154C /* WallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364BA2694340700CA154C /* WallpaperModel.swift */; };
+		FC9364BD26943A7D00CA154C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9364BC26943A7D00CA154C /* Assets.xcassets */; };
+		FC9364BF2694469800CA154C /* WallpaperInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364BE2694469800CA154C /* WallpaperInfoViewController.swift */; };
+		FC9364C1269459A400CA154C /* CateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364C0269459A400CA154C /* CateCell.swift */; };
+		FC9364C326954DA300CA154C /* CategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364C226954DA300CA154C /* CategoryDetailViewController.swift */; };
+		FC9364C526954EE400CA154C /* CateSmallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364C426954EE400CA154C /* CateSmallCell.swift */; };
+		FC9364C72695A53600CA154C /* TrendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364C62695A53600CA154C /* TrendingCell.swift */; };
+		FC9364C92695AF7300CA154C /* TrendingContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364C82695AF7300CA154C /* TrendingContentCell.swift */; };
+		FC9364CB2696AE5B00CA154C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364CA2696AE5B00CA154C /* LoginViewController.swift */; };
+		FC9364CD2696F8FA00CA154C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364CC2696F8FA00CA154C /* RegisterViewController.swift */; };
+		FCBCF884268B176C00E2779D /* BannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCF883268B176C00E2779D /* BannerData.swift */; };
+		FCC2D1C1269BD72A009030D1 /* CBToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1C0269BD72A009030D1 /* CBToast.swift */; };
+		FCC2D1C3269BD8B4009030D1 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1C2269BD8B4009030D1 /* LoginManager.swift */; };
+		FCC2D1C5269BD8BE009030D1 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1C4269BD8BE009030D1 /* LoginModel.swift */; };
+		FCC2D1C7269BD977009030D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1C6269BD977009030D1 /* User.swift */; };
+		FCC2D1CB269BE27F009030D1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1CA269BE27F009030D1 /* SettingsViewController.swift */; };
+		FCC2D1CD269BF556009030D1 /* FavWallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1CC269BF556009030D1 /* FavWallpaperModel.swift */; };
+		FCC2D1CF269C0842009030D1 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1CE269C0842009030D1 /* FavoriteViewController.swift */; };
+		FCC2D1D1269C14EE009030D1 /* WallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1D0269C14EE009030D1 /* WallpaperCell.swift */; };
+		FCC2D1D3269C1584009030D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1D2269C1584009030D1 /* ProfileViewController.swift */; };
+		FCC2D1D5269C237F009030D1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1D4269C237F009030D1 /* AccountViewController.swift */; };
+		FCC2D1D9269C2C60009030D1 /* ChangeUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1D8269C2C60009030D1 /* ChangeUserNameViewController.swift */; };
+		FCC2D1DB269C3869009030D1 /* ChangePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1DA269C3869009030D1 /* ChangePhotoViewController.swift */; };
+		FCC2D1DD269C3E79009030D1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D1DC269C3E79009030D1 /* ImagePicker.swift */; };
+		FCD5042B268B015B00C372ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5042A268B015B00C372ED /* AppDelegate.swift */; };
+		FCD5042D268B015B00C372ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5042C268B015B00C372ED /* SceneDelegate.swift */; };
+		FCD5042F268B015B00C372ED /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5042E268B015B00C372ED /* TabViewController.swift */; };
+		FCD50432268B015B00C372ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD50430268B015B00C372ED /* Main.storyboard */; };
+		FCD50437268B015C00C372ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD50435268B015C00C372ED /* LaunchScreen.storyboard */; };
+		FCD50442268B015C00C372ED /* BladeCloudGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD50441268B015C00C372ED /* BladeCloudGameTests.swift */; };
+		FCD5044D268B015C00C372ED /* BladeCloudGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5044C268B015C00C372ED /* BladeCloudGameUITests.swift */; };
+		FCD5045B268B021600C372ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5045A268B021600C372ED /* HomeViewController.swift */; };
+		FCD5045D268B022000C372ED /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5045C268B022000C372ED /* CategoryViewController.swift */; };
+		FCD5045F268B022E00C372ED /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5045E268B022E00C372ED /* DiscoverViewController.swift */; };
+		FCD50474268B06AC00C372ED /* WallpaperData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD50473268B06AC00C372ED /* WallpaperData.swift */; };
+		FCD50478268B07C100C372ED /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD50477268B07C100C372ED /* K.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD5043E268B015C00C372ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD5041F268B015B00C372ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD50426268B015B00C372ED;
+			remoteInfo = BladeCloudGame;
+		};
+		FCD50449268B015C00C372ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD5041F268B015B00C372ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD50426268B015B00C372ED;
+			remoteInfo = BladeCloudGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		117192CCA1A91342217B5554 /* Pods-BladeCloudGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.release.xcconfig"; sourceTree = "<group>"; };
+		1D7CA1E6C3C98F43BCA2E287 /* Pods-BladeCloudGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F3254E4EF3FB20BE366E0DE /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGame_BladeCloudGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7125384B596DA5DDE2F22F33 /* Pods-BladeCloudGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7B05B3CFDEE4C61B5B8AD9F3 /* Pods-BladeCloudGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		845A4555573CD2D11074D89F /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC936493268C0A5500CA154C /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		FC936495268C380100CA154C /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		FC9364B22693F55000CA154C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Device.swift; path = ../../../../Documents/Device.swift; sourceTree = "<group>"; };
+		FC9364BA2694340700CA154C /* WallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperModel.swift; sourceTree = "<group>"; };
+		FC9364BC26943A7D00CA154C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9364BE2694469800CA154C /* WallpaperInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperInfoViewController.swift; sourceTree = "<group>"; };
+		FC9364C0269459A400CA154C /* CateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateCell.swift; sourceTree = "<group>"; };
+		FC9364C226954DA300CA154C /* CategoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewController.swift; sourceTree = "<group>"; };
+		FC9364C426954EE400CA154C /* CateSmallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateSmallCell.swift; sourceTree = "<group>"; };
+		FC9364C62695A53600CA154C /* TrendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCell.swift; sourceTree = "<group>"; };
+		FC9364C82695AF7300CA154C /* TrendingContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingContentCell.swift; sourceTree = "<group>"; };
+		FC9364CA2696AE5B00CA154C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC9364CC2696F8FA00CA154C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FCBCF883268B176C00E2779D /* BannerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerData.swift; sourceTree = "<group>"; };
+		FCC2D1C0269BD72A009030D1 /* CBToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBToast.swift; sourceTree = "<group>"; };
+		FCC2D1C2269BD8B4009030D1 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		FCC2D1C4269BD8BE009030D1 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		FCC2D1C6269BD977009030D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FCC2D1CA269BE27F009030D1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FCC2D1CC269BF556009030D1 /* FavWallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavWallpaperModel.swift; sourceTree = "<group>"; };
+		FCC2D1CE269C0842009030D1 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		FCC2D1D0269C14EE009030D1 /* WallpaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCell.swift; sourceTree = "<group>"; };
+		FCC2D1D2269C1584009030D1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FCC2D1D4269C237F009030D1 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		FCC2D1D8269C2C60009030D1 /* ChangeUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserNameViewController.swift; sourceTree = "<group>"; };
+		FCC2D1DA269C3869009030D1 /* ChangePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhotoViewController.swift; sourceTree = "<group>"; };
+		FCC2D1DC269C3E79009030D1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FCD50427268B015B00C372ED /* BladeCloudGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BladeCloudGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD5042A268B015B00C372ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD5042C268B015B00C372ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCD5042E268B015B00C372ED /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		FCD50431268B015B00C372ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD50436268B015C00C372ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD50438268B015C00C372ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD5043D268B015C00C372ED /* BladeCloudGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BladeCloudGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD50441268B015C00C372ED /* BladeCloudGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCloudGameTests.swift; sourceTree = "<group>"; };
+		FCD50443268B015C00C372ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD50448268B015C00C372ED /* BladeCloudGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BladeCloudGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD5044C268B015C00C372ED /* BladeCloudGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCloudGameUITests.swift; sourceTree = "<group>"; };
+		FCD5044E268B015D00C372ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD5045A268B021600C372ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FCD5045C268B022000C372ED /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		FCD5045E268B022E00C372ED /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		FCD50473268B06AC00C372ED /* WallpaperData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperData.swift; sourceTree = "<group>"; };
+		FCD50477268B07C100C372ED /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD50424268B015B00C372ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC93649B268D93B000CA154C /* Pods_BladeCloudGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD5043A268B015C00C372ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66879D2AF654C2EAAE57EB3F /* Pods_BladeCloudGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD50445268B015C00C372ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEF1AD997833DCD15571349 /* Pods_BladeCloudGame_BladeCloudGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9E46CB94A4BA603E0B3AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */,
+				2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */,
+				C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E70AC095DDD4372E3ECA37F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7125384B596DA5DDE2F22F33 /* Pods-BladeCloudGame.debug.xcconfig */,
+				117192CCA1A91342217B5554 /* Pods-BladeCloudGame.release.xcconfig */,
+				1F3254E4EF3FB20BE366E0DE /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */,
+				845A4555573CD2D11074D89F /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */,
+				7B05B3CFDEE4C61B5B8AD9F3 /* Pods-BladeCloudGameTests.debug.xcconfig */,
+				1D7CA1E6C3C98F43BCA2E287 /* Pods-BladeCloudGameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCD5041E268B015B00C372ED = {
+			isa = PBXGroup;
+			children = (
+				FC9364BC26943A7D00CA154C /* Assets.xcassets */,
+				FCD50429268B015B00C372ED /* BladeCloudGame */,
+				FCD50440268B015C00C372ED /* BladeCloudGameTests */,
+				FCD5044B268B015C00C372ED /* BladeCloudGameUITests */,
+				FCD50428268B015B00C372ED /* Products */,
+				6E70AC095DDD4372E3ECA37F /* Pods */,
+				2D9E46CB94A4BA603E0B3AE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD50428268B015B00C372ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50427268B015B00C372ED /* BladeCloudGame.app */,
+				FCD5043D268B015C00C372ED /* BladeCloudGameTests.xctest */,
+				FCD50448268B015C00C372ED /* BladeCloudGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD50429268B015B00C372ED /* BladeCloudGame */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50476268B07B600C372ED /* Tools */,
+				FCD50462268B05E100C372ED /* UIFrame */,
+				FCD5042A268B015B00C372ED /* AppDelegate.swift */,
+				FCD5042C268B015B00C372ED /* SceneDelegate.swift */,
+				FCD5042E268B015B00C372ED /* TabViewController.swift */,
+				FCD50430268B015B00C372ED /* Main.storyboard */,
+				FCD50435268B015C00C372ED /* LaunchScreen.storyboard */,
+				FCD50438268B015C00C372ED /* Info.plist */,
+			);
+			path = BladeCloudGame;
+			sourceTree = "<group>";
+		};
+		FCD50440268B015C00C372ED /* BladeCloudGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50441268B015C00C372ED /* BladeCloudGameTests.swift */,
+				FCD50443268B015C00C372ED /* Info.plist */,
+			);
+			path = BladeCloudGameTests;
+			sourceTree = "<group>";
+		};
+		FCD5044B268B015C00C372ED /* BladeCloudGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5044C268B015C00C372ED /* BladeCloudGameUITests.swift */,
+				FCD5044E268B015D00C372ED /* Info.plist */,
+			);
+			path = BladeCloudGameUITests;
+			sourceTree = "<group>";
+		};
+		FCD50462268B05E100C372ED /* UIFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5046B268B062E00C372ED /* Discover */,
+				FCD5046F268B064700C372ED /* Profile */,
+				FCD50463268B05E900C372ED /* Home */,
+				FCD50467268B061700C372ED /* Category */,
+			);
+			path = UIFrame;
+			sourceTree = "<group>";
+		};
+		FCD50463268B05E900C372ED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50466268B05FF00C372ED /* Model */,
+				FCD50465268B05FA00C372ED /* View */,
+				FCD50464268B05F400C372ED /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FCD50464268B05F400C372ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5045A268B021600C372ED /* HomeViewController.swift */,
+				FC9364BE2694469800CA154C /* WallpaperInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCD50465268B05FA00C372ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC936495268C380100CA154C /* BannerCell.swift */,
+				FCC2D1D0269C14EE009030D1 /* WallpaperCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCD50466268B05FF00C372ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50473268B06AC00C372ED /* WallpaperData.swift */,
+				FCBCF883268B176C00E2779D /* BannerData.swift */,
+				FC9364BA2694340700CA154C /* WallpaperModel.swift */,
+				FCC2D1CC269BF556009030D1 /* FavWallpaperModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCD50467268B061700C372ED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5046A268B062800C372ED /* Model */,
+				FCD50469268B062400C372ED /* View */,
+				FCD50468268B061E00C372ED /* Controller */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FCD50468268B061E00C372ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5045C268B022000C372ED /* CategoryViewController.swift */,
+				FC9364C226954DA300CA154C /* CategoryDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCD50469268B062400C372ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC9364C0269459A400CA154C /* CateCell.swift */,
+				FC9364C426954EE400CA154C /* CateSmallCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCD5046A268B062800C372ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCD5046B268B062E00C372ED /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5046E268B064000C372ED /* Model */,
+				FCD5046D268B063D00C372ED /* View */,
+				FCD5046C268B063700C372ED /* Controller */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		FCD5046C268B063700C372ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5045E268B022E00C372ED /* DiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCD5046D268B063D00C372ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC9364C62695A53600CA154C /* TrendingCell.swift */,
+				FC9364C82695AF7300CA154C /* TrendingContentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCD5046E268B064000C372ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCD5046F268B064700C372ED /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50472268B065500C372ED /* Model */,
+				FCD50471268B065100C372ED /* View */,
+				FCD50470268B064C00C372ED /* Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FCD50470268B064C00C372ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2D1D2269C1584009030D1 /* ProfileViewController.swift */,
+				FC9364CA2696AE5B00CA154C /* LoginViewController.swift */,
+				FC9364CC2696F8FA00CA154C /* RegisterViewController.swift */,
+				FCC2D1CA269BE27F009030D1 /* SettingsViewController.swift */,
+				FCC2D1CE269C0842009030D1 /* FavoriteViewController.swift */,
+				FCC2D1D4269C237F009030D1 /* AccountViewController.swift */,
+				FCC2D1D8269C2C60009030D1 /* ChangeUserNameViewController.swift */,
+				FCC2D1DA269C3869009030D1 /* ChangePhotoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCD50471268B065100C372ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCD50472268B065500C372ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2D1C2269BD8B4009030D1 /* LoginManager.swift */,
+				FCC2D1C4269BD8BE009030D1 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCD50476268B07B600C372ED /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FCD50477268B07C100C372ED /* K.swift */,
+				FC936493268C0A5500CA154C /* Tools.swift */,
+				FC9364B22693F55000CA154C /* Device.swift */,
+				FCC2D1C0269BD72A009030D1 /* CBToast.swift */,
+				FCC2D1C6269BD977009030D1 /* User.swift */,
+				FCC2D1DC269C3E79009030D1 /* ImagePicker.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD50426268B015B00C372ED /* BladeCloudGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD50451268B015D00C372ED /* Build configuration list for PBXNativeTarget "BladeCloudGame" */;
+			buildPhases = (
+				B1F43396FA01A7E0CB669F0E /* [CP] Check Pods Manifest.lock */,
+				FCD50423268B015B00C372ED /* Sources */,
+				FCD50424268B015B00C372ED /* Frameworks */,
+				FCD50425268B015B00C372ED /* Resources */,
+				9D90A768B1F7CA1FDA2BC01A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BladeCloudGame;
+			productName = BladeCloudGame;
+			productReference = FCD50427268B015B00C372ED /* BladeCloudGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD5043C268B015C00C372ED /* BladeCloudGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD50454268B015D00C372ED /* Build configuration list for PBXNativeTarget "BladeCloudGameTests" */;
+			buildPhases = (
+				4788DDB01B0CEED7AB42712C /* [CP] Check Pods Manifest.lock */,
+				FCD50439268B015C00C372ED /* Sources */,
+				FCD5043A268B015C00C372ED /* Frameworks */,
+				FCD5043B268B015C00C372ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD5043F268B015C00C372ED /* PBXTargetDependency */,
+			);
+			name = BladeCloudGameTests;
+			productName = BladeCloudGameTests;
+			productReference = FCD5043D268B015C00C372ED /* BladeCloudGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD50447268B015C00C372ED /* BladeCloudGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD50457268B015D00C372ED /* Build configuration list for PBXNativeTarget "BladeCloudGameUITests" */;
+			buildPhases = (
+				6FACEF2A0F6B8F440AE58F79 /* [CP] Check Pods Manifest.lock */,
+				FCD50444268B015C00C372ED /* Sources */,
+				FCD50445268B015C00C372ED /* Frameworks */,
+				FCD50446268B015C00C372ED /* Resources */,
+				7CFD529651351E66E80C26B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD5044A268B015C00C372ED /* PBXTargetDependency */,
+			);
+			name = BladeCloudGameUITests;
+			productName = BladeCloudGameUITests;
+			productReference = FCD50448268B015C00C372ED /* BladeCloudGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD5041F268B015B00C372ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FCD50426268B015B00C372ED = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FCD5043C268B015C00C372ED = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FCD50426268B015B00C372ED;
+					};
+					FCD50447268B015C00C372ED = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FCD50426268B015B00C372ED;
+					};
+				};
+			};
+			buildConfigurationList = FCD50422268B015B00C372ED /* Build configuration list for PBXProject "BladeCloudGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD5041E268B015B00C372ED;
+			productRefGroup = FCD50428268B015B00C372ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD50426268B015B00C372ED /* BladeCloudGame */,
+				FCD5043C268B015C00C372ED /* BladeCloudGameTests */,
+				FCD50447268B015C00C372ED /* BladeCloudGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD50425268B015B00C372ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD50437268B015C00C372ED /* LaunchScreen.storyboard in Resources */,
+				FC9364BD26943A7D00CA154C /* Assets.xcassets in Resources */,
+				FCD50432268B015B00C372ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD5043B268B015C00C372ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD50446268B015C00C372ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4788DDB01B0CEED7AB42712C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BladeCloudGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FACEF2A0F6B8F440AE58F79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BladeCloudGame-BladeCloudGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFD529651351E66E80C26B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D90A768B1F7CA1FDA2BC01A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F43396FA01A7E0CB669F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BladeCloudGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD50423268B015B00C372ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9364CB2696AE5B00CA154C /* LoginViewController.swift in Sources */,
+				FC9364BF2694469800CA154C /* WallpaperInfoViewController.swift in Sources */,
+				FCC2D1C1269BD72A009030D1 /* CBToast.swift in Sources */,
+				FCD50478268B07C100C372ED /* K.swift in Sources */,
+				FC936494268C0A5500CA154C /* Tools.swift in Sources */,
+				FCD5045F268B022E00C372ED /* DiscoverViewController.swift in Sources */,
+				FC936496268C380100CA154C /* BannerCell.swift in Sources */,
+				FCC2D1D5269C237F009030D1 /* AccountViewController.swift in Sources */,
+				FC9364C72695A53600CA154C /* TrendingCell.swift in Sources */,
+				FCD5045D268B022000C372ED /* CategoryViewController.swift in Sources */,
+				FCD5042F268B015B00C372ED /* TabViewController.swift in Sources */,
+				FCC2D1D1269C14EE009030D1 /* WallpaperCell.swift in Sources */,
+				FC9364BB2694340700CA154C /* WallpaperModel.swift in Sources */,
+				FCC2D1D3269C1584009030D1 /* ProfileViewController.swift in Sources */,
+				FCD5042B268B015B00C372ED /* AppDelegate.swift in Sources */,
+				FCC2D1CD269BF556009030D1 /* FavWallpaperModel.swift in Sources */,
+				FC9364C326954DA300CA154C /* CategoryDetailViewController.swift in Sources */,
+				FCC2D1DD269C3E79009030D1 /* ImagePicker.swift in Sources */,
+				FCD50474268B06AC00C372ED /* WallpaperData.swift in Sources */,
+				FC9364C526954EE400CA154C /* CateSmallCell.swift in Sources */,
+				FCD5042D268B015B00C372ED /* SceneDelegate.swift in Sources */,
+				FCD5045B268B021600C372ED /* HomeViewController.swift in Sources */,
+				FCC2D1DB269C3869009030D1 /* ChangePhotoViewController.swift in Sources */,
+				FCC2D1CF269C0842009030D1 /* FavoriteViewController.swift in Sources */,
+				FCC2D1C5269BD8BE009030D1 /* LoginModel.swift in Sources */,
+				FCC2D1D9269C2C60009030D1 /* ChangeUserNameViewController.swift in Sources */,
+				FCBCF884268B176C00E2779D /* BannerData.swift in Sources */,
+				FCC2D1C3269BD8B4009030D1 /* LoginManager.swift in Sources */,
+				FC9364C1269459A400CA154C /* CateCell.swift in Sources */,
+				FCC2D1CB269BE27F009030D1 /* SettingsViewController.swift in Sources */,
+				FC9364C92695AF7300CA154C /* TrendingContentCell.swift in Sources */,
+				FC9364B32693F55000CA154C /* Device.swift in Sources */,
+				FC9364CD2696F8FA00CA154C /* RegisterViewController.swift in Sources */,
+				FCC2D1C7269BD977009030D1 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD50439268B015C00C372ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD50442268B015C00C372ED /* BladeCloudGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD50444268B015C00C372ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD5044D268B015C00C372ED /* BladeCloudGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD5043F268B015C00C372ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD50426268B015B00C372ED /* BladeCloudGame */;
+			targetProxy = FCD5043E268B015C00C372ED /* PBXContainerItemProxy */;
+		};
+		FCD5044A268B015C00C372ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD50426268B015B00C372ED /* BladeCloudGame */;
+			targetProxy = FCD50449268B015C00C372ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD50430268B015B00C372ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD50431268B015B00C372ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD50435268B015C00C372ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD50436268B015C00C372ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD5044F268B015D00C372ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD50450268B015D00C372ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD50452268B015D00C372ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7125384B596DA5DDE2F22F33 /* Pods-BladeCloudGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245Z5XS9ML;
+				INFOPLIST_FILE = BladeCloudGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyblade.Wallify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCD50453268B015D00C372ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117192CCA1A91342217B5554 /* Pods-BladeCloudGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245Z5XS9ML;
+				INFOPLIST_FILE = BladeCloudGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyblade.Wallify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FCD50455268B015D00C372ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B05B3CFDEE4C61B5B8AD9F3 /* Pods-BladeCloudGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245Z5XS9ML;
+				INFOPLIST_FILE = BladeCloudGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyblade.BladeCloudGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BladeCloudGame.app/BladeCloudGame";
+			};
+			name = Debug;
+		};
+		FCD50456268B015D00C372ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7CA1E6C3C98F43BCA2E287 /* Pods-BladeCloudGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245Z5XS9ML;
+				INFOPLIST_FILE = BladeCloudGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyblade.BladeCloudGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BladeCloudGame.app/BladeCloudGame";
+			};
+			name = Release;
+		};
+		FCD50458268B015D00C372ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3254E4EF3FB20BE366E0DE /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245Z5XS9ML;
+				INFOPLIST_FILE = BladeCloudGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyblade.BladeCloudGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BladeCloudGame;
+			};
+			name = Debug;
+		};
+		FCD50459268B015D00C372ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845A4555573CD2D11074D89F /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245Z5XS9ML;
+				INFOPLIST_FILE = BladeCloudGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyblade.BladeCloudGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BladeCloudGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD50422268B015B00C372ED /* Build configuration list for PBXProject "BladeCloudGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD5044F268B015D00C372ED /* Debug */,
+				FCD50450268B015D00C372ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD50451268B015D00C372ED /* Build configuration list for PBXNativeTarget "BladeCloudGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD50452268B015D00C372ED /* Debug */,
+				FCD50453268B015D00C372ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD50454268B015D00C372ED /* Build configuration list for PBXNativeTarget "BladeCloudGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD50455268B015D00C372ED /* Debug */,
+				FCD50456268B015D00C372ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD50457268B015D00C372ED /* Build configuration list for PBXNativeTarget "BladeCloudGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD50458268B015D00C372ED /* Debug */,
+				FCD50459268B015D00C372ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD5041F268B015B00C372ED /* Project object */;
+}
