@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BEF1AD997833DCD15571349 /* Pods_BladeCloudGame_BladeCloudGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */; };
-		66879D2AF654C2EAAE57EB3F /* Pods_BladeCloudGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */; };
+		B9E62F3E8EBEC731BC22C6BE /* Pods_Wallify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF2B5EF23FDC3BBFD75905D /* Pods_Wallify.framework */; };
 		FC936494268C0A5500CA154C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936493268C0A5500CA154C /* Tools.swift */; };
 		FC936496268C380100CA154C /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936495268C380100CA154C /* BannerCell.swift */; };
-		FC93649B268D93B000CA154C /* Pods_BladeCloudGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */; };
 		FC9364BB2694340700CA154C /* WallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364BA2694340700CA154C /* WallpaperModel.swift */; };
 		FC9364BD26943A7D00CA154C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9364BC26943A7D00CA154C /* Assets.xcassets */; };
 		FC9364BF2694469800CA154C /* WallpaperInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364BE2694469800CA154C /* WallpaperInfoViewController.swift */; };
@@ -66,15 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08FBDEDF13F480F398F4B990 /* Pods-BladeCloudGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGame_BladeCloudGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D049EE796AA2DE293C893F5 /* Pods-Wallify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallify.release.xcconfig"; path = "Target Support Files/Pods-Wallify/Pods-Wallify.release.xcconfig"; sourceTree = "<group>"; };
 		3926AE8E428124902C4DA4BA /* Pods-BladeCloudGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.release.xcconfig"; sourceTree = "<group>"; };
-		584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CD361E01901C1B1D80D22C /* Pods-BladeCloudGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.debug.xcconfig"; sourceTree = "<group>"; };
-		8A8EC3851D5CF27E7951BF04 /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB81C2748DBBE72F388A1581 /* Pods-BladeCloudGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.release.xcconfig"; sourceTree = "<group>"; };
-		EB07B29A419E6C577DE0F31B /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DF2B5EF23FDC3BBFD75905D /* Pods_Wallify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A00125AA2B6D633B6920C7 /* Pods-Wallify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallify.debug.xcconfig"; path = "Target Support Files/Pods-Wallify/Pods-Wallify.debug.xcconfig"; sourceTree = "<group>"; };
 		FC936493268C0A5500CA154C /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		FC936495268C380100CA154C /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
 		FC9364BA2694340700CA154C /* WallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperModel.swift; sourceTree = "<group>"; };
@@ -122,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC93649B268D93B000CA154C /* Pods_BladeCloudGame.framework in Frameworks */,
+				B9E62F3E8EBEC731BC22C6BE /* Pods_Wallify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66879D2AF654C2EAAE57EB3F /* Pods_BladeCloudGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +131,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BEF1AD997833DCD15571349 /* Pods_BladeCloudGame_BladeCloudGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,10 +142,8 @@
 			children = (
 				68CD361E01901C1B1D80D22C /* Pods-BladeCloudGame.debug.xcconfig */,
 				3926AE8E428124902C4DA4BA /* Pods-BladeCloudGame.release.xcconfig */,
-				EB07B29A419E6C577DE0F31B /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */,
-				8A8EC3851D5CF27E7951BF04 /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */,
-				08FBDEDF13F480F398F4B990 /* Pods-BladeCloudGameTests.debug.xcconfig */,
-				CB81C2748DBBE72F388A1581 /* Pods-BladeCloudGameTests.release.xcconfig */,
+				C5A00125AA2B6D633B6920C7 /* Pods-Wallify.debug.xcconfig */,
+				1D049EE796AA2DE293C893F5 /* Pods-Wallify.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -161,9 +151,7 @@
 		2D9E46CB94A4BA603E0B3AE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */,
-				2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */,
-				C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */,
+				7DF2B5EF23FDC3BBFD75905D /* Pods_Wallify.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -402,7 +390,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCD50454268B015D00C372ED /* Build configuration list for PBXNativeTarget "WallifyTests" */;
 			buildPhases = (
-				4788DDB01B0CEED7AB42712C /* [CP] Check Pods Manifest.lock */,
 				FCD50439268B015C00C372ED /* Sources */,
 				FCD5043A268B015C00C372ED /* Frameworks */,
 				FCD5043B268B015C00C372ED /* Resources */,
@@ -421,11 +408,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCD50457268B015D00C372ED /* Build configuration list for PBXNativeTarget "WallifyUITests" */;
 			buildPhases = (
-				6FACEF2A0F6B8F440AE58F79 /* [CP] Check Pods Manifest.lock */,
 				FCD50444268B015C00C372ED /* Sources */,
 				FCD50445268B015C00C372ED /* Frameworks */,
 				FCD50446268B015C00C372ED /* Resources */,
-				7CFD529651351E66E80C26B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -507,82 +492,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4788DDB01B0CEED7AB42712C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BladeCloudGameTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6FACEF2A0F6B8F440AE58F79 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BladeCloudGame-BladeCloudGameUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7CFD529651351E66E80C26B4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9D90A768B1F7CA1FDA2BC01A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Wallify/Pods-Wallify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Wallify/Pods-Wallify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wallify/Pods-Wallify-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B1F43396FA01A7E0CB669F0E /* [CP] Check Pods Manifest.lock */ = {
@@ -600,7 +524,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BladeCloudGame-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Wallify-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -817,7 +741,7 @@
 		};
 		FCD50452268B015D00C372ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68CD361E01901C1B1D80D22C /* Pods-BladeCloudGame.debug.xcconfig */;
+			baseConfigurationReference = C5A00125AA2B6D633B6920C7 /* Pods-Wallify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -838,7 +762,7 @@
 		};
 		FCD50453268B015D00C372ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3926AE8E428124902C4DA4BA /* Pods-BladeCloudGame.release.xcconfig */;
+			baseConfigurationReference = 1D049EE796AA2DE293C893F5 /* Pods-Wallify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -859,7 +783,6 @@
 		};
 		FCD50455268B015D00C372ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08FBDEDF13F480F398F4B990 /* Pods-BladeCloudGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -882,7 +805,6 @@
 		};
 		FCD50456268B015D00C372ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB81C2748DBBE72F388A1581 /* Pods-BladeCloudGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -905,7 +827,6 @@
 		};
 		FCD50458268B015D00C372ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB07B29A419E6C577DE0F31B /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -926,7 +847,6 @@
 		};
 		FCD50459268B015D00C372ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A8EC3851D5CF27E7951BF04 /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
