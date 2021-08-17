@@ -12,7 +12,6 @@
 		FC936494268C0A5500CA154C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936493268C0A5500CA154C /* Tools.swift */; };
 		FC936496268C380100CA154C /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC936495268C380100CA154C /* BannerCell.swift */; };
 		FC93649B268D93B000CA154C /* Pods_BladeCloudGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */; };
-		FC9364B32693F55000CA154C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364B22693F55000CA154C /* Device.swift */; };
 		FC9364BB2694340700CA154C /* WallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364BA2694340700CA154C /* WallpaperModel.swift */; };
 		FC9364BD26943A7D00CA154C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9364BC26943A7D00CA154C /* Assets.xcassets */; };
 		FC9364BF2694469800CA154C /* WallpaperInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9364BE2694469800CA154C /* WallpaperInfoViewController.swift */; };
@@ -42,8 +41,6 @@
 		FCD5042F268B015B00C372ED /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5042E268B015B00C372ED /* TabViewController.swift */; };
 		FCD50432268B015B00C372ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD50430268B015B00C372ED /* Main.storyboard */; };
 		FCD50437268B015C00C372ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD50435268B015C00C372ED /* LaunchScreen.storyboard */; };
-		FCD50442268B015C00C372ED /* BladeCloudGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD50441268B015C00C372ED /* BladeCloudGameTests.swift */; };
-		FCD5044D268B015C00C372ED /* BladeCloudGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5044C268B015C00C372ED /* BladeCloudGameUITests.swift */; };
 		FCD5045B268B021600C372ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5045A268B021600C372ED /* HomeViewController.swift */; };
 		FCD5045D268B022000C372ED /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5045C268B022000C372ED /* CategoryViewController.swift */; };
 		FCD5045F268B022E00C372ED /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5045E268B022E00C372ED /* DiscoverViewController.swift */; };
@@ -69,18 +66,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		117192CCA1A91342217B5554 /* Pods-BladeCloudGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.release.xcconfig"; sourceTree = "<group>"; };
-		1D7CA1E6C3C98F43BCA2E287 /* Pods-BladeCloudGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.release.xcconfig"; sourceTree = "<group>"; };
-		1F3254E4EF3FB20BE366E0DE /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08FBDEDF13F480F398F4B990 /* Pods-BladeCloudGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2799600B52223CB33E6F835B /* Pods_BladeCloudGame_BladeCloudGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGame_BladeCloudGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3926AE8E428124902C4DA4BA /* Pods-BladeCloudGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.release.xcconfig"; sourceTree = "<group>"; };
 		584AAF78E3A48CCDA38A38D1 /* Pods_BladeCloudGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7125384B596DA5DDE2F22F33 /* Pods-BladeCloudGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.debug.xcconfig"; sourceTree = "<group>"; };
-		7B05B3CFDEE4C61B5B8AD9F3 /* Pods-BladeCloudGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		845A4555573CD2D11074D89F /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68CD361E01901C1B1D80D22C /* Pods-BladeCloudGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame/Pods-BladeCloudGame.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8EC3851D5CF27E7951BF04 /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C768ABC7AA9D48DD731326C2 /* Pods_BladeCloudGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCloudGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB81C2748DBBE72F388A1581 /* Pods-BladeCloudGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGameTests.release.xcconfig"; path = "Target Support Files/Pods-BladeCloudGameTests/Pods-BladeCloudGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB07B29A419E6C577DE0F31B /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-BladeCloudGame-BladeCloudGameUITests/Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC936493268C0A5500CA154C /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		FC936495268C380100CA154C /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
-		FC9364B22693F55000CA154C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Device.swift; path = ../../../../Documents/Device.swift; sourceTree = "<group>"; };
 		FC9364BA2694340700CA154C /* WallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperModel.swift; sourceTree = "<group>"; };
 		FC9364BC26943A7D00CA154C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9364BE2694469800CA154C /* WallpaperInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperInfoViewController.swift; sourceTree = "<group>"; };
@@ -113,11 +109,7 @@
 		FCD50436268B015C00C372ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD50438268B015C00C372ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD5043D268B015C00C372ED /* BladeCloudGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BladeCloudGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD50441268B015C00C372ED /* BladeCloudGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCloudGameTests.swift; sourceTree = "<group>"; };
-		FCD50443268B015C00C372ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD50448268B015C00C372ED /* BladeCloudGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BladeCloudGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD5044C268B015C00C372ED /* BladeCloudGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCloudGameUITests.swift; sourceTree = "<group>"; };
-		FCD5044E268B015D00C372ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD5045A268B021600C372ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FCD5045C268B022000C372ED /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		FCD5045E268B022E00C372ED /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +145,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4AB429C408911BB9A9C230 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68CD361E01901C1B1D80D22C /* Pods-BladeCloudGame.debug.xcconfig */,
+				3926AE8E428124902C4DA4BA /* Pods-BladeCloudGame.release.xcconfig */,
+				EB07B29A419E6C577DE0F31B /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */,
+				8A8EC3851D5CF27E7951BF04 /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */,
+				08FBDEDF13F480F398F4B990 /* Pods-BladeCloudGameTests.debug.xcconfig */,
+				CB81C2748DBBE72F388A1581 /* Pods-BladeCloudGameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D9E46CB94A4BA603E0B3AE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,29 +168,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6E70AC095DDD4372E3ECA37F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7125384B596DA5DDE2F22F33 /* Pods-BladeCloudGame.debug.xcconfig */,
-				117192CCA1A91342217B5554 /* Pods-BladeCloudGame.release.xcconfig */,
-				1F3254E4EF3FB20BE366E0DE /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */,
-				845A4555573CD2D11074D89F /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */,
-				7B05B3CFDEE4C61B5B8AD9F3 /* Pods-BladeCloudGameTests.debug.xcconfig */,
-				1D7CA1E6C3C98F43BCA2E287 /* Pods-BladeCloudGameTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		FCD5041E268B015B00C372ED = {
 			isa = PBXGroup;
 			children = (
 				FC9364BC26943A7D00CA154C /* Assets.xcassets */,
 				FCD50429268B015B00C372ED /* BladeCloudGame */,
-				FCD50440268B015C00C372ED /* BladeCloudGameTests */,
-				FCD5044B268B015C00C372ED /* BladeCloudGameUITests */,
 				FCD50428268B015B00C372ED /* Products */,
-				6E70AC095DDD4372E3ECA37F /* Pods */,
 				2D9E46CB94A4BA603E0B3AE9 /* Frameworks */,
+				0F4AB429C408911BB9A9C230 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,24 +202,6 @@
 				FCD50438268B015C00C372ED /* Info.plist */,
 			);
 			path = BladeCloudGame;
-			sourceTree = "<group>";
-		};
-		FCD50440268B015C00C372ED /* BladeCloudGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				FCD50441268B015C00C372ED /* BladeCloudGameTests.swift */,
-				FCD50443268B015C00C372ED /* Info.plist */,
-			);
-			path = BladeCloudGameTests;
-			sourceTree = "<group>";
-		};
-		FCD5044B268B015C00C372ED /* BladeCloudGameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCD5044C268B015C00C372ED /* BladeCloudGameUITests.swift */,
-				FCD5044E268B015D00C372ED /* Info.plist */,
-			);
-			path = BladeCloudGameUITests;
 			sourceTree = "<group>";
 		};
 		FCD50462268B05E100C372ED /* UIFrame */ = {
@@ -397,7 +369,6 @@
 			children = (
 				FCD50477268B07C100C372ED /* K.swift */,
 				FC936493268C0A5500CA154C /* Tools.swift */,
-				FC9364B22693F55000CA154C /* Device.swift */,
 				FCC2D1C0269BD72A009030D1 /* CBToast.swift */,
 				FCC2D1C6269BD977009030D1 /* User.swift */,
 				FCC2D1DC269C3E79009030D1 /* ImagePicker.swift */,
@@ -674,7 +645,6 @@
 				FC9364C1269459A400CA154C /* CateCell.swift in Sources */,
 				FCC2D1CB269BE27F009030D1 /* SettingsViewController.swift in Sources */,
 				FC9364C92695AF7300CA154C /* TrendingContentCell.swift in Sources */,
-				FC9364B32693F55000CA154C /* Device.swift in Sources */,
 				FC9364CD2696F8FA00CA154C /* RegisterViewController.swift in Sources */,
 				FCC2D1C7269BD977009030D1 /* User.swift in Sources */,
 			);
@@ -684,7 +654,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD50442268B015C00C372ED /* BladeCloudGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,7 +661,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD5044D268B015C00C372ED /* BladeCloudGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,7 +817,7 @@
 		};
 		FCD50452268B015D00C372ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7125384B596DA5DDE2F22F33 /* Pods-BladeCloudGame.debug.xcconfig */;
+			baseConfigurationReference = 68CD361E01901C1B1D80D22C /* Pods-BladeCloudGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -870,7 +838,7 @@
 		};
 		FCD50453268B015D00C372ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 117192CCA1A91342217B5554 /* Pods-BladeCloudGame.release.xcconfig */;
+			baseConfigurationReference = 3926AE8E428124902C4DA4BA /* Pods-BladeCloudGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -891,7 +859,7 @@
 		};
 		FCD50455268B015D00C372ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B05B3CFDEE4C61B5B8AD9F3 /* Pods-BladeCloudGameTests.debug.xcconfig */;
+			baseConfigurationReference = 08FBDEDF13F480F398F4B990 /* Pods-BladeCloudGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -914,7 +882,7 @@
 		};
 		FCD50456268B015D00C372ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D7CA1E6C3C98F43BCA2E287 /* Pods-BladeCloudGameTests.release.xcconfig */;
+			baseConfigurationReference = CB81C2748DBBE72F388A1581 /* Pods-BladeCloudGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -937,7 +905,7 @@
 		};
 		FCD50458268B015D00C372ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F3254E4EF3FB20BE366E0DE /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */;
+			baseConfigurationReference = EB07B29A419E6C577DE0F31B /* Pods-BladeCloudGame-BladeCloudGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -958,7 +926,7 @@
 		};
 		FCD50459268B015D00C372ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 845A4555573CD2D11074D89F /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */;
+			baseConfigurationReference = 8A8EC3851D5CF27E7951BF04 /* Pods-BladeCloudGame-BladeCloudGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
